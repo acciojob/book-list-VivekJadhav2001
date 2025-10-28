@@ -1,5 +1,3 @@
-//your JS code here. If required.
-
 
 const title = document.getElementById("title");
 const author = document.getElementById("author");
@@ -35,3 +33,5 @@ bookList.addEventListener("click", function(e) {
 		e.target.closest("tr").remove(); // remove the row
 	}
 });
+
+submitBtn.addEventListener("click", tableData);
